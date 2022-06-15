@@ -1,4 +1,5 @@
 module elib/elib-fontawesome/lib
+imports elib/elib-fontawesome/icons
 
   template fontawesomeIncludes() {
     includeCSS("fontawesome/css/fontawesome.min.css")
