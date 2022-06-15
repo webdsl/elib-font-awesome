@@ -8,3 +8,11 @@ imports elib/elib-fontawesome/icons
     includeCSS("fontawesome/css/regular.min.css") // regular font awesome icons
     includeCSS("fontawesome/css/brands.min.css")  // brand icons such as youtube, twitter, programming languages, etc.
   }
+
+  template faBool(x: Bool) {
+    if(x != null && x) { fasCheck } else { fasXmark }
+  }
+
+  template faOk(x: Bool) {
+    if(x != null && x) { fasCheck }
+  }
